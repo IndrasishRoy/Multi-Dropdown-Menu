@@ -11,6 +11,6 @@ Languages Used:
 • HTML(46.8%)
 • CSS(53.2%)
 
-I hope you'll have a good experience after using this Dropdown Menu and will like my work.
+I hope this Dropdown Menu will be helpfull for many beginners in Front-End Development and will like my work.
 
 Thank You!
