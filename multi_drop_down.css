@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: aliceblue;
+}
+ul{
+    list-style: none;
+}
+/* ------nav-section------ */
+header{
+    background-color: rgb(7, 235, 159);
+    padding: 2rem 0;
+}
+nav{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.menu>li, .menu>a{
+    display: inline-block;
+}
+.menu li{
+    position: relative;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 1.5rem;
+    transition: background-color .22s ease, color .22s ease;
+
+}
+.menu a:hover{
+    background-color: aquamarine;
+    color: rgb(99, 193, 230);
+}
+/* ------sub-menu------ */
+.sub-menu{
+    position: absolute;
+    background-color: rgb(146, 230, 202);
+    width: 140px;
+    left: 0;
+    display: none;
+}
+/* ------sub-menu-2------ */
+.sub-menu-2{
+    position: absolute;
+    left: 100%;
+    width: 140px;
+    background-color: rgb(146, 230, 202);
+    top: 0;
+    display: none;
+}
+/* ------show-menu-on-hover------ */
+.menu>li:hover .sub-menu{
+    display: block;
+    animation: slideup .3s ease;
+}
+.sub-menu>li:hover .sub-menu-2{
+    display: block;
+    animation: slideleft .3s ease;
+}
+/* ------animation-on-hover------ */
+@keyframes slideup{
+    0%{
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes slideleft{
+    0%{
+        opacity: 0;
+        transform: translateX(18px);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
