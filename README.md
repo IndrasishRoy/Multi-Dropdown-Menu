@@ -8,8 +8,8 @@ Type:
 • Dropdown Menu
 
 Languages Used:
-• HTML(39.9%)
-• CSS(55.6%)
+• HTML(46.8%)
+• CSS(53.2%)
 
 I hope you'll have a good experience after using this Dropdown Menu and will like my work.
 
