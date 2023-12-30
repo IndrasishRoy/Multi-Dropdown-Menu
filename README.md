@@ -9,8 +9,8 @@ I created a Multi-Dropdown Menu by using HTML and CSS only. The transitions are 
 • Dropdown Menu
 
 ## Languages Used:
-• HTML(46.8%)
-• CSS(53.2%)
+![HTML BADGE](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS BADGE](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ##
 I hope this Dropdown Menu will be helpful for many beginners in Front-End Development and will like my work.
